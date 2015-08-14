@@ -3,11 +3,11 @@
 
 This repository contains data from the phonon calculations discussed in the forthcoming publication:
 
-*Influence of the exchange-correlation functional on the quasi-harmonic lattice dynamics of II-VI semiconductors*  
+[*Influence of the exchange-correlation functional on the quasi-harmonic lattice dynamics of II-VI semiconductors*](http://dx.doi.org/10.1063/1.4928058) 
 Jonathan M. Skelton, Davide Tiana, Stephen C. Parker, Atsushi Togo, Isao Tanaka and Aron Walsh  
-*The journal of Chemical Physics* **143** (**2015**)
+*The Journal of Chemical Physics* **143** 064710 (**2015**)
 
-This paper will be open access and available free of charge from AIP.
+This paper is open access and available free of charge from AIP.
 
 
 Contents
