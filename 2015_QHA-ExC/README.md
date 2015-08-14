@@ -1,7 +1,7 @@
 2015_QHA-ExC
 ============
 
-This repository contains data from the phonon calculations discussed in the forthcoming publication:
+This repository contains data from the phonon calculations discussed in the publication:
 
 [*Influence of the exchange-correlation functional on the quasi-harmonic lattice dynamics of II-VI semiconductors*](http://dx.doi.org/10.1063/1.4928058) 
 Jonathan M. Skelton, Davide Tiana, Stephen C. Parker, Atsushi Togo, Isao Tanaka and Aron Walsh  
