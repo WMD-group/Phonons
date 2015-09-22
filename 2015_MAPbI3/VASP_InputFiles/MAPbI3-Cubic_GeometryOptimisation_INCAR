@@ -1,0 +1,34 @@
+SYSTEM = MAPI
+
+!Start Parameters:
+ NWRITE = 2        (Medium-level output information)   
+ ISTART = 1        (Read existing wavefunction) 
+ INIWAV = 1        (Random initial wavefunction)
+ ICORELEVEL = 1
+	
+!Parallel Options: 
+ LPLANE = .TRUE.   (Real space distribution)
+ NCORE   = 24        (Max is no. nodes)
+
+!Electronic Relaxation:
+ PREC  = Accurate  (Precision level)
+ LREAL = Auto  (Projection operators: automatic)
+ ALGO  = N          (Elect. algorithm: 38/48)
+ ENMAX = 700 eV    (Plane-wave cutoff) 
+ NELM  = 250       (Max number of SCF steps)   
+ GGA   =  PS       (PBE exchange-correlation)
+
+!Ionic Relaxation:
+ EDIFF  =      1.0e-06 
+ EDIFFG =     -1.0e-03    (Ionic convergence)
+ ISIF   =      3
+ NSW    =      25
+ NBLOCK =      1     (Update XDATCAR/DOSCAR every X steps) 
+ IBRION =      1     (Ions: 0-MD, 1-Quasi-New, 2-CG)
+ ISYM   =      2      (Symmetry: Use all, 0: none) 
+ ISMEAR =      0     (Gaussian smearing, Metals:1, MP)
+ SIGMA  =      0.001  (Smearing in eV, Metals:0.2)
+ POTIM  =      0.20
+ LWAVE  = .FALSE.
+ LCHARG = .FALSE.
+

@@ -1,0 +1,19 @@
+ ADDGRID = .TRUE.	
+ ALGO = Fast ! N          (Elect. algorithm: 38/48) !! [JMS] Let's try a combination of DAV/RMM - if it's stable, RMM is about 2x faster per iteration
+ EDIFF = 1.0e-08 
+ EDIFFG = -1.0e-03    (Ionic convergence)
+ ENMAX = 800 eV    (Plane-wave cutoff) 
+ GGA =  PS       (PBE exchange-correlation)
+ ISIF = 2
+ ISMEAR = 0     (Gaussian smearing, Metals:1, MP)
+ ISYM = 2      (Symmetry: Use all, 0: none) 
+ !KPAR = 08
+ LCHARG = .FALSE.
+ LREAL = .FALSE.  (Projection operators: automatic)
+ LWAVE = .FALSE.
+ NPAR = 1 !NCORE = 24        (Max is no. nodes) ! [JMS] I'm not convinced VASP always picks up NCORE, so let's go with the safe option for now.
+ NELM = 250       (Max number of SCF steps)   
+ NSW = 0 ! 1
+ PREC = Accurate  (Precision level)
+ SIGMA = 0.001  (Smearing in eV, Metals:0.2)
+ SYSTEM = MAPI
