@@ -3,6 +3,10 @@ Phonons
 
 A collection of structures, force constants, and other phonon data obtained from first-principles calculations.
 
+- [[2015_MAPbI3]]: the hybrid perovskite CH3NH3PbI3
+
+- [[2015_QHA-ExC]]: PbS, PbTe, ZnS and ZnTe
+
 Publications
 ------------
 - [Thermal physics of the lead chalcogenides PbS, PbSe, and PbTe from first principles](http://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.205203) Physical Review B (2014)
