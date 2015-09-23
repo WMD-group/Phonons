@@ -3,9 +3,9 @@ Phonons
 
 A collection of structures, force constants, and other phonon data obtained from first-principles calculations.
 
-- [[2015_MAPbI3]]: the hybrid perovskite CH3NH3PbI3
+- [2015_MAPbI3](https://github.com/WMD-Bath/Phonons/tree/master/2015_MAPbI3): the hybrid perovskite CH3NH3PbI3
 
-- [[2015_QHA-ExC]]: PbS, PbTe, ZnS and ZnTe
+- [2015_QHA-ExC](https://github.com/WMD-Bath/Phonons/tree/master/2015_QHA-ExC): PbS, PbTe, ZnS and ZnTe
 
 Publications
 ------------
