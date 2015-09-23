@@ -10,6 +10,7 @@ Publications
 - [Phase stability and transformations in the halide perovskite CsSnI3](http://journals.aps.org/prb/abstract/10.1103/PhysRevB.91.144107) Physical Review B (2015)
 - [Influence of the exchange-correlation functional on the quasi-harmonic lattice dynamics of II-VI semiconductors](http://scitation.aip.org/content/aip/journal/jcp/143/6/10.1063/1.4928058?TRACK=RSS)
 The Journal of Chemical Physics (2015)
+- [Lattice dynamics and vibrational spectra of the orthorhombic, tetragonal and cubic phases of methylammonium lead iodide](http://arxiv.org/abs/1504.07508) arXiv (2015)
 
 Codes
 ------------
