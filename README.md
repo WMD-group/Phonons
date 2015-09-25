@@ -12,8 +12,8 @@ A collection of structures, force constants, and other phonon data obtained from
 Publications
 ------------
 - [Thermal physics of the lead chalcogenides PbS, PbSe, and PbTe from first principles](http://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.205203) Physical Review B (2014)
-- [Vibrational spectra and lattice thermal conductivity of kesterite-structured Cu2ZnSnS4 and Cu2ZnSnSe4](http://scitation.aip.org/content/aip/journal/aplmater/3/4/10.1063/1.4917044) APL Materials (2015)
-- [Phase stability and transformations in the halide perovskite CsSnI3](http://journals.aps.org/prb/abstract/10.1103/PhysRevB.91.144107) Physical Review B (2015)
+- [Vibrational spectra and lattice thermal conductivity of kesterite-structured Cu<sub>2</sub>ZnSnS<sub>4</sub> and Cu<sub>2</sub>ZnSnSe<sub>4</sub>](http://scitation.aip.org/content/aip/journal/aplmater/3/4/10.1063/1.4917044) APL Materials (2015)
+- [Phase stability and transformations in the halide perovskite CsSnI<sub>3</sub>](http://journals.aps.org/prb/abstract/10.1103/PhysRevB.91.144107) Physical Review B (2015)
 - [Influence of the exchange-correlation functional on the quasi-harmonic lattice dynamics of II-VI semiconductors](http://scitation.aip.org/content/aip/journal/jcp/143/6/10.1063/1.4928058?TRACK=RSS)
 The Journal of Chemical Physics (2015)
 - [Lattice dynamics and vibrational spectra of the orthorhombic, tetragonal and cubic phases of methylammonium lead iodide](http://arxiv.org/abs/1504.07508) arXiv (2015)

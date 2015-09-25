@@ -14,7 +14,7 @@ Contents
 ------------
 The two subfolders contain data from the `VASP`, `phonopy`, `phonopy-gruneisen` and `phono3py` calculations on Cu<sub>2</sub>ZnSnS<sub>4</sub> and Cu<sub>2</sub>ZnSnS<sub>4</sub>.
 
-The raw data is provided in the `VASP` and `phonopy` formats, and more information may be found on the [VASP](https://www.vasp.at/) and [Phonopy](http://phonopy.sourceforge.net/) websites. The raw data output from the `IR.sh` and `vasp_raman.py` scripts is also available, and information may be found on [David Karhánek's homepage](http://homepage.univie.ac.at/david.karhanek/downloads.html) and the [raman-sc](https://github.com/raman-sc/VASP) GitHub page. Full details of the technical aspects of the calculations may be found in the paper.
+The raw data is provided in the `VASP` and `phonopy` formats, and more information may be found on the [VASP](https://www.vasp.at/) and [Phonopy](http://phonopy.sourceforge.net/) websites. The raw data output from the `IR.sh` and `vasp_raman.py` scripts is also available, and further information may be found on [David Karhánek's homepage](http://homepage.univie.ac.at/david.karhanek/downloads.html) and the [raman-sc](https://github.com/raman-sc/VASP) GitHub page. Full details of the technical aspects of the calculations may be found in the paper.
 
 Inside each folder, the following data is available:
 
