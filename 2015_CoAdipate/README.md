@@ -3,7 +3,7 @@
 
 This repository contains data for the calculations discussed in the publication:
 
-[*Magnetoelastic coupling in the cobalt adipate metal-organic framework from quasi-harmonic lattice dynamics*] 
+*Magnetoelastic coupling in the cobalt adipate metal-organic framework from quasi-harmonic lattice dynamics*
 K. L. Svane, P. J. Saines and A. Walsh  
 *Journal of Materials Chemistry C* 
 
