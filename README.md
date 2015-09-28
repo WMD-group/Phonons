@@ -5,6 +5,8 @@ A collection of structures, force constants, and other phonon data obtained from
 
 - [2015_MAPbI3](https://github.com/WMD-Bath/Phonons/tree/master/2015_MAPbI3): the hybrid perovskite CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub>
 
+- [2015_CoAdipate](https://github.com/WMD-Bath/Phonons/tree/master/2015_CoAdipate): the magnetic hybrid framework Co(C<sub>6</sub>H<sub>8</sub>O<sub>4</sub>)
+
 - [2015_QHA-ExC](https://github.com/WMD-Bath/Phonons/tree/master/2015_QHA-ExC): PbS, PbTe, ZnS and ZnTe
 
 - [2015_CZTS-Se](https://github.com/WMD-Bath/Phonons/tree/master/2015_CZTS-Se): Cu<sub>2</sub>ZnSnS<sub>4</sub> and Cu<sub>2</sub>ZnSnSe<sub>4</sub>
