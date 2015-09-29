@@ -11,7 +11,7 @@ Contents
 ------------
 The files FM- and AFM-optimised contain the optimised structures, the thermal properties and the partial phonon density of states of Co adipate in the ferromagnetic and antiferromagnetic states, respectively.
 
-The files AFM-qha and FM-qha contain data for the quasiharmonic calculations in the AFM and FM states. The main folder contains the output data from the quasi-harmonic calculation and subfolders with the structures, force constants and thermal properties obtained at different volumes. In addition, .gif files of selected modes calculated for the optimised AFM structure are contained in PhononModes.zip.
+The files AFM-qha and FM-qha contain data for the quasiharmonic calculations in the AFM and FM states. The main folder contains the output data from the quasi-harmonic calculation and subfolders with the structures, force constants and thermal properties obtained at different volumes. In addition, .gif files of selected modes calculated for the optimised AFM structure are contained in PhononModes.zip, together with a .yaml file containing the frequencies of all bands. 
 
 The folder Mn-structures contains optimised FM and AFM structures with Co replaced by Mn.
 
