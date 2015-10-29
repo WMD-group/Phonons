@@ -1,0 +1,407 @@
+# Thermal displacements
+natom:     2
+thermal_displacements:
+- temperature:         0.0000000
+  displacements:
+  - [  0.0017153 ] # atom 1
+  - [  0.0017668 ] # atom 2
+- temperature:        10.0000000
+  displacements:
+  - [  0.0017456 ] # atom 1
+  - [  0.0017843 ] # atom 2
+- temperature:        20.0000000
+  displacements:
+  - [  0.0019659 ] # atom 1
+  - [  0.0018854 ] # atom 2
+- temperature:        30.0000000
+  displacements:
+  - [  0.0023469 ] # atom 1
+  - [  0.0020707 ] # atom 2
+- temperature:        40.0000000
+  displacements:
+  - [  0.0028095 ] # atom 1
+  - [  0.0023202 ] # atom 2
+- temperature:        50.0000000
+  displacements:
+  - [  0.0033151 ] # atom 1
+  - [  0.0026142 ] # atom 2
+- temperature:        60.0000000
+  displacements:
+  - [  0.0038454 ] # atom 1
+  - [  0.0029378 ] # atom 2
+- temperature:        70.0000000
+  displacements:
+  - [  0.0043911 ] # atom 1
+  - [  0.0032815 ] # atom 2
+- temperature:        80.0000000
+  displacements:
+  - [  0.0049468 ] # atom 1
+  - [  0.0036391 ] # atom 2
+- temperature:        90.0000000
+  displacements:
+  - [  0.0055094 ] # atom 1
+  - [  0.0040066 ] # atom 2
+- temperature:       100.0000000
+  displacements:
+  - [  0.0060770 ] # atom 1
+  - [  0.0043814 ] # atom 2
+- temperature:       110.0000000
+  displacements:
+  - [  0.0066483 ] # atom 1
+  - [  0.0047617 ] # atom 2
+- temperature:       120.0000000
+  displacements:
+  - [  0.0072223 ] # atom 1
+  - [  0.0051463 ] # atom 2
+- temperature:       130.0000000
+  displacements:
+  - [  0.0077985 ] # atom 1
+  - [  0.0055342 ] # atom 2
+- temperature:       140.0000000
+  displacements:
+  - [  0.0083764 ] # atom 1
+  - [  0.0059247 ] # atom 2
+- temperature:       150.0000000
+  displacements:
+  - [  0.0089557 ] # atom 1
+  - [  0.0063174 ] # atom 2
+- temperature:       160.0000000
+  displacements:
+  - [  0.0095361 ] # atom 1
+  - [  0.0067119 ] # atom 2
+- temperature:       170.0000000
+  displacements:
+  - [  0.0101175 ] # atom 1
+  - [  0.0071078 ] # atom 2
+- temperature:       180.0000000
+  displacements:
+  - [  0.0106996 ] # atom 1
+  - [  0.0075049 ] # atom 2
+- temperature:       190.0000000
+  displacements:
+  - [  0.0112824 ] # atom 1
+  - [  0.0079031 ] # atom 2
+- temperature:       200.0000000
+  displacements:
+  - [  0.0118657 ] # atom 1
+  - [  0.0083022 ] # atom 2
+- temperature:       210.0000000
+  displacements:
+  - [  0.0124495 ] # atom 1
+  - [  0.0087020 ] # atom 2
+- temperature:       220.0000000
+  displacements:
+  - [  0.0130338 ] # atom 1
+  - [  0.0091025 ] # atom 2
+- temperature:       230.0000000
+  displacements:
+  - [  0.0136184 ] # atom 1
+  - [  0.0095036 ] # atom 2
+- temperature:       240.0000000
+  displacements:
+  - [  0.0142033 ] # atom 1
+  - [  0.0099052 ] # atom 2
+- temperature:       250.0000000
+  displacements:
+  - [  0.0147885 ] # atom 1
+  - [  0.0103072 ] # atom 2
+- temperature:       260.0000000
+  displacements:
+  - [  0.0153739 ] # atom 1
+  - [  0.0107096 ] # atom 2
+- temperature:       270.0000000
+  displacements:
+  - [  0.0159596 ] # atom 1
+  - [  0.0111124 ] # atom 2
+- temperature:       280.0000000
+  displacements:
+  - [  0.0165454 ] # atom 1
+  - [  0.0115155 ] # atom 2
+- temperature:       290.0000000
+  displacements:
+  - [  0.0171315 ] # atom 1
+  - [  0.0119188 ] # atom 2
+- temperature:       300.0000000
+  displacements:
+  - [  0.0177176 ] # atom 1
+  - [  0.0123225 ] # atom 2
+- temperature:       310.0000000
+  displacements:
+  - [  0.0183040 ] # atom 1
+  - [  0.0127263 ] # atom 2
+- temperature:       320.0000000
+  displacements:
+  - [  0.0188904 ] # atom 1
+  - [  0.0131304 ] # atom 2
+- temperature:       330.0000000
+  displacements:
+  - [  0.0194770 ] # atom 1
+  - [  0.0135347 ] # atom 2
+- temperature:       340.0000000
+  displacements:
+  - [  0.0200637 ] # atom 1
+  - [  0.0139391 ] # atom 2
+- temperature:       350.0000000
+  displacements:
+  - [  0.0206505 ] # atom 1
+  - [  0.0143437 ] # atom 2
+- temperature:       360.0000000
+  displacements:
+  - [  0.0212374 ] # atom 1
+  - [  0.0147484 ] # atom 2
+- temperature:       370.0000000
+  displacements:
+  - [  0.0218244 ] # atom 1
+  - [  0.0151533 ] # atom 2
+- temperature:       380.0000000
+  displacements:
+  - [  0.0224114 ] # atom 1
+  - [  0.0155583 ] # atom 2
+- temperature:       390.0000000
+  displacements:
+  - [  0.0229985 ] # atom 1
+  - [  0.0159634 ] # atom 2
+- temperature:       400.0000000
+  displacements:
+  - [  0.0235857 ] # atom 1
+  - [  0.0163686 ] # atom 2
+- temperature:       410.0000000
+  displacements:
+  - [  0.0241729 ] # atom 1
+  - [  0.0167739 ] # atom 2
+- temperature:       420.0000000
+  displacements:
+  - [  0.0247602 ] # atom 1
+  - [  0.0171794 ] # atom 2
+- temperature:       430.0000000
+  displacements:
+  - [  0.0253476 ] # atom 1
+  - [  0.0175848 ] # atom 2
+- temperature:       440.0000000
+  displacements:
+  - [  0.0259349 ] # atom 1
+  - [  0.0179904 ] # atom 2
+- temperature:       450.0000000
+  displacements:
+  - [  0.0265224 ] # atom 1
+  - [  0.0183961 ] # atom 2
+- temperature:       460.0000000
+  displacements:
+  - [  0.0271099 ] # atom 1
+  - [  0.0188018 ] # atom 2
+- temperature:       470.0000000
+  displacements:
+  - [  0.0276974 ] # atom 1
+  - [  0.0192076 ] # atom 2
+- temperature:       480.0000000
+  displacements:
+  - [  0.0282850 ] # atom 1
+  - [  0.0196134 ] # atom 2
+- temperature:       490.0000000
+  displacements:
+  - [  0.0288725 ] # atom 1
+  - [  0.0200193 ] # atom 2
+- temperature:       500.0000000
+  displacements:
+  - [  0.0294602 ] # atom 1
+  - [  0.0204252 ] # atom 2
+- temperature:       510.0000000
+  displacements:
+  - [  0.0300478 ] # atom 1
+  - [  0.0208312 ] # atom 2
+- temperature:       520.0000000
+  displacements:
+  - [  0.0306355 ] # atom 1
+  - [  0.0212373 ] # atom 2
+- temperature:       530.0000000
+  displacements:
+  - [  0.0312232 ] # atom 1
+  - [  0.0216434 ] # atom 2
+- temperature:       540.0000000
+  displacements:
+  - [  0.0318110 ] # atom 1
+  - [  0.0220495 ] # atom 2
+- temperature:       550.0000000
+  displacements:
+  - [  0.0323988 ] # atom 1
+  - [  0.0224557 ] # atom 2
+- temperature:       560.0000000
+  displacements:
+  - [  0.0329865 ] # atom 1
+  - [  0.0228619 ] # atom 2
+- temperature:       570.0000000
+  displacements:
+  - [  0.0335744 ] # atom 1
+  - [  0.0232682 ] # atom 2
+- temperature:       580.0000000
+  displacements:
+  - [  0.0341622 ] # atom 1
+  - [  0.0236744 ] # atom 2
+- temperature:       590.0000000
+  displacements:
+  - [  0.0347500 ] # atom 1
+  - [  0.0240808 ] # atom 2
+- temperature:       600.0000000
+  displacements:
+  - [  0.0353379 ] # atom 1
+  - [  0.0244871 ] # atom 2
+- temperature:       610.0000000
+  displacements:
+  - [  0.0359258 ] # atom 1
+  - [  0.0248935 ] # atom 2
+- temperature:       620.0000000
+  displacements:
+  - [  0.0365137 ] # atom 1
+  - [  0.0252999 ] # atom 2
+- temperature:       630.0000000
+  displacements:
+  - [  0.0371016 ] # atom 1
+  - [  0.0257063 ] # atom 2
+- temperature:       640.0000000
+  displacements:
+  - [  0.0376896 ] # atom 1
+  - [  0.0261128 ] # atom 2
+- temperature:       650.0000000
+  displacements:
+  - [  0.0382775 ] # atom 1
+  - [  0.0265192 ] # atom 2
+- temperature:       660.0000000
+  displacements:
+  - [  0.0388655 ] # atom 1
+  - [  0.0269257 ] # atom 2
+- temperature:       670.0000000
+  displacements:
+  - [  0.0394535 ] # atom 1
+  - [  0.0273323 ] # atom 2
+- temperature:       680.0000000
+  displacements:
+  - [  0.0400415 ] # atom 1
+  - [  0.0277388 ] # atom 2
+- temperature:       690.0000000
+  displacements:
+  - [  0.0406295 ] # atom 1
+  - [  0.0281454 ] # atom 2
+- temperature:       700.0000000
+  displacements:
+  - [  0.0412175 ] # atom 1
+  - [  0.0285520 ] # atom 2
+- temperature:       710.0000000
+  displacements:
+  - [  0.0418055 ] # atom 1
+  - [  0.0289586 ] # atom 2
+- temperature:       720.0000000
+  displacements:
+  - [  0.0423936 ] # atom 1
+  - [  0.0293652 ] # atom 2
+- temperature:       730.0000000
+  displacements:
+  - [  0.0429816 ] # atom 1
+  - [  0.0297718 ] # atom 2
+- temperature:       740.0000000
+  displacements:
+  - [  0.0435697 ] # atom 1
+  - [  0.0301785 ] # atom 2
+- temperature:       750.0000000
+  displacements:
+  - [  0.0441578 ] # atom 1
+  - [  0.0305851 ] # atom 2
+- temperature:       760.0000000
+  displacements:
+  - [  0.0447459 ] # atom 1
+  - [  0.0309918 ] # atom 2
+- temperature:       770.0000000
+  displacements:
+  - [  0.0453339 ] # atom 1
+  - [  0.0313985 ] # atom 2
+- temperature:       780.0000000
+  displacements:
+  - [  0.0459220 ] # atom 1
+  - [  0.0318052 ] # atom 2
+- temperature:       790.0000000
+  displacements:
+  - [  0.0465101 ] # atom 1
+  - [  0.0322120 ] # atom 2
+- temperature:       800.0000000
+  displacements:
+  - [  0.0470983 ] # atom 1
+  - [  0.0326187 ] # atom 2
+- temperature:       810.0000000
+  displacements:
+  - [  0.0476864 ] # atom 1
+  - [  0.0330255 ] # atom 2
+- temperature:       820.0000000
+  displacements:
+  - [  0.0482745 ] # atom 1
+  - [  0.0334322 ] # atom 2
+- temperature:       830.0000000
+  displacements:
+  - [  0.0488627 ] # atom 1
+  - [  0.0338390 ] # atom 2
+- temperature:       840.0000000
+  displacements:
+  - [  0.0494508 ] # atom 1
+  - [  0.0342458 ] # atom 2
+- temperature:       850.0000000
+  displacements:
+  - [  0.0500389 ] # atom 1
+  - [  0.0346526 ] # atom 2
+- temperature:       860.0000000
+  displacements:
+  - [  0.0506271 ] # atom 1
+  - [  0.0350594 ] # atom 2
+- temperature:       870.0000000
+  displacements:
+  - [  0.0512153 ] # atom 1
+  - [  0.0354662 ] # atom 2
+- temperature:       880.0000000
+  displacements:
+  - [  0.0518034 ] # atom 1
+  - [  0.0358730 ] # atom 2
+- temperature:       890.0000000
+  displacements:
+  - [  0.0523916 ] # atom 1
+  - [  0.0362799 ] # atom 2
+- temperature:       900.0000000
+  displacements:
+  - [  0.0529798 ] # atom 1
+  - [  0.0366867 ] # atom 2
+- temperature:       910.0000000
+  displacements:
+  - [  0.0535680 ] # atom 1
+  - [  0.0370935 ] # atom 2
+- temperature:       920.0000000
+  displacements:
+  - [  0.0541562 ] # atom 1
+  - [  0.0375004 ] # atom 2
+- temperature:       930.0000000
+  displacements:
+  - [  0.0547444 ] # atom 1
+  - [  0.0379073 ] # atom 2
+- temperature:       940.0000000
+  displacements:
+  - [  0.0553326 ] # atom 1
+  - [  0.0383142 ] # atom 2
+- temperature:       950.0000000
+  displacements:
+  - [  0.0559208 ] # atom 1
+  - [  0.0387210 ] # atom 2
+- temperature:       960.0000000
+  displacements:
+  - [  0.0565090 ] # atom 1
+  - [  0.0391279 ] # atom 2
+- temperature:       970.0000000
+  displacements:
+  - [  0.0570972 ] # atom 1
+  - [  0.0395348 ] # atom 2
+- temperature:       980.0000000
+  displacements:
+  - [  0.0576854 ] # atom 1
+  - [  0.0399417 ] # atom 2
+- temperature:       990.0000000
+  displacements:
+  - [  0.0582736 ] # atom 1
+  - [  0.0403487 ] # atom 2
+- temperature:      1000.0000000
+  displacements:
+  - [  0.0588619 ] # atom 1
+  - [  0.0407556 ] # atom 2
