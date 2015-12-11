@@ -8,4 +8,4 @@ This repository contains data to be discussed in the forthcoming publication:
 
 Further Information
 -------------------
-Please direct any queries to the WMD-Bath organisation.
+Please direct any queries to the WMD-Group organisation.
