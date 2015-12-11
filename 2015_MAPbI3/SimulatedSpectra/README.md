@@ -1,7 +1,9 @@
-These data are generated via VASP, calculating the force constants with DFPT and using them to generate the Gamma point phonon eigenvectors and eigenvalues (frequencies). 
+The data in this folder were generated using the VASP DFPT routines to calulate the Gamma-point phonon eigenvalues (frequencies) and eigenvectors. 
 
-VASP symmetrises and conditions the Dynamic (Hessian) matrix more aggressively than Phonopy. As such, the frequencies calculated can be +-5cm^-1 compared to the Phonopy values.
+VASP does not symmetrise the force constants as aggressively as Phonopy with the `FC_SYMMETRY = 1` option; as such, the frequencies can be shifted by +/- 5 cm<sup>-1</sup> compared to the Phonopy values.
 
-For the Raman and IR activities, a `IBRION = 8 ; LEPSILON = .TRUE.` is done with VASP, setting `NWRITE=3`. This outputs the displacements into the `OUTCAR`. These eigenvectors are then used as inputs to the `IR.sh` which directly calculates the activity from the Born Effective Charges and the eigenvectors. The same eigenvectors are then fed to `vasp_raman.py` which displaces along these modes and does a DFT calculation to infer the change in polarisability.
+To calculate the IR activities, a single VASP calculation with `IBRION = 8 ; LEPSILON = .TRUE.` is performed to obtain the Gamma-point frequencies and eigenvectors and the Born effective-charge tensors. The option `NWRITE=3` is also set to output the eigenvectors divided by sqrt(mass) (i.e. the atomic displacements associated with the eigenvectors) into the `OUTCAR` file. These quantities are used as inputs to the `IR.sh` script ([available here](http://homepage.univie.ac.at/david.karhanek/downloads.html#Entry02)), which calculates the activity from the Born charges and the displacements.
+
+To simulate the Raman activities, the same DFPT frequencies and eigenvectors are used as input to `vasp_raman.py` ([available here](https://github.com/raman-sc/VASP/)), which displaces +/- along each mode, performs a calculation with `LEPSILON = .TRUE.` to obtain the macroscopic dielectric tensor at each step, and hence computes the change in polarisability along the mode via a finite-difference stencil.
 
 -- Jarv, in conversation with Jonathan
