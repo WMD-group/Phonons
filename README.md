@@ -29,7 +29,7 @@ The Journal of Chemical Physics (**2015**)
 Codes
 -----
 
-- [Phonopy](http://phonopy.sourceforge.net)
+- [Phonopy](http://atztogo.github.io/phonopy)
 - [VASP](https://www.vasp.at)
 
 
