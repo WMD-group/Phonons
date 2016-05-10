@@ -1,0 +1,91 @@
+# 2016-05-10 - Jarvist Moore Frost
+# Gnuplot instructions to plot Phonopy band structures, for MAPI, sanely.
+
+# line styles for ColorBrewer Paired
+# for use with qualitative/categorical data
+# provides 8 colors in 4 pairs
+# compatible with gnuplot >=4.2
+# author: Anna Schneider
+
+# JMF: Editing to add in-between colour; 12 colours in 4 triplets
+# Via the webservice at:
+#    http://meyerweb.com/eric/tools/color-blend/#FDBF6F:FF7F00:1:hex
+
+# line styles
+unset style line
+
+set style line 1 lt 1 lc rgb '#A6CEE3' # light blue
+set style line 2 lt 1 lc rgb '#63A3CC' # mid blue
+set style line 3 lt 1 lc rgb '#1F78B4' # dark blue
+
+set style line 4 lt 1 lc rgb '#B2DF8A' # light green
+set style line 5 lt 1 lc rgb '#73C05B' # mid green
+set style line 6 lt 1 lc rgb '#33A02C' # dark green
+
+set style line 7 lt 1 lc rgb '#FB9A99' # light red
+set style line 8 lt 1 lc rgb '#EF5A5B' # mid red
+set style line 9 lt 1 lc rgb '#E31A1C' # dark red
+
+set style line 10 lt 1 lc rgb '#FDBF6F' # light orange
+set style line 11 lt 1 lc rgb '#FE9F38' # mid orange
+set style line 12 lt 1 lc rgb '#FF7F00' # dark orange
+
+### Repeat by hand, can't get it to do this automagically :( ###
+
+set style line 13 lt 1 lc rgb '#B2DF8A' # light green
+set style line 14 lt 1 lc rgb '#73C05B' # mid green
+set style line 15 lt 1 lc rgb '#33A02C' # dark green
+
+set style line 16 lt 1 lc rgb '#FB9A99' # light red
+set style line 17 lt 1 lc rgb '#EF5A5B' # mid red
+set style line 18 lt 1 lc rgb '#E31A1C' # dark red
+
+set style line 19 lt 1 lc rgb '#FDBF6F' # light orange
+set style line 20 lt 1 lc rgb '#FE9F38' # mid orange
+set style line 21 lt 1 lc rgb '#FF7F00' # dark orange
+
+
+
+set style increment userstyles
+###
+
+set format y "%.0f"
+unset key
+
+set size square
+
+#set xlabel "q-point"
+
+# Band structure xtics
+# Phonopy: BAND_LABELS = R \Gamma M X
+set xtics ("R" 0, \
+           "{/Symbol G}" 0.135, \
+           "M" 0.249540, \
+           "X" 0.329)
+
+set grid xtics
+
+###
+
+set yrange [-30:150]
+
+#p "band.gnuplot" u 1:2 w l
+# -2 is fictional variable to use data block index
+# lc var --> linecolour variable
+p 0.0 lt 0 dt 2, \
+  "band.gnuplot" u 1:($2*33.36):(column(-2)+1) linewidth 2 lc var with lines
+# column(-2)+1 weirdness is to use the 'pseudocolumn' -2 for the index of the
+# data, but then shifted by +1, so that the counter starts at 1, to tally with
+# the lines set above. (You can't set a custom line with a counter of zero.)
+
+file="band"
+
+set terminal pngcairo size 1024,1024 enhanced font 'Helvetica,24'
+set output file.'.png'
+replot
+
+set terminal postscript eps enhanced color font 'Helvetica,24'
+set output file.'.eps'
+replot
+
+
