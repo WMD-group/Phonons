@@ -58,16 +58,19 @@ set size square
 
 # Band structure xtics
 # Phonopy: BAND_LABELS = R \Gamma M X
+#  This is calibrated for MAPI Cubic structure; probably a good starting point
 set xtics ("R" 0, \
            "{/Symbol G}" 0.135, \
            "M" 0.249540, \
            "X" 0.329)
 
+load 'xtics.gpt' # Load specific xtics from this directory, as override.
+
 set grid xtics
 
 ###
 
-set yrange [-30:150]
+set yrange [-30:220]
 
 #p "band.gnuplot" u 1:2 w l
 # -2 is fictional variable to use data block index

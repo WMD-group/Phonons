@@ -1,0 +1,5 @@
+# xtics.gpt for this phonon dispersion
+set xtics ("R" 0, \
+           "{/Symbol G}" 0.135, \
+           "M" 0.249540, \
+           "X" 0.329)
