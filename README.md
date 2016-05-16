@@ -3,15 +3,17 @@ Phonons
 
 A collection of structures, force constants, and other phonon data obtained from first-principles calculations.
 
-- [2015_MAPbI3](https://github.com/WMD-Bath/Phonons/tree/master/2015_MAPbI3): the three phases of the hybrid perovskite CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub>
+- [2016_MAPbX3-CompleteAssignment] (2016_MAPbX3-CompleteAssignment): More careful analysis and derived factors, from the data below.
 
-- [2015_CoAdipate](https://github.com/WMD-Bath/Phonons/tree/master/2015_CoAdipate): the Co-adipate metal-organic framework (MOF)
+- [2015_MAPbI3](2015_MAPbI3): the three phases of the hybrid perovskite CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub>
 
-- [2015_QHA-ExC](https://github.com/WMD-Bath/Phonons/tree/master/2015_QHA-ExC): PbS, PbTe, ZnS and ZnTe
+- [2015_CoAdipate](2015_CoAdipate): the Co-adipate metal-organic framework (MOF)
 
-- [2015_CZTS-Se](https://github.com/WMD-Bath/Phonons/tree/master/2015_CZTS-Se): Cu<sub>2</sub>ZnSnS<sub>4</sub> and Cu<sub>2</sub>ZnSnSe<sub>4</sub>
+- [2015_QHA-ExC](2015_QHA-ExC): PbS, PbTe, ZnS and ZnTe
 
-- [2014_PbX-QHA](https://github.com/WMD-Bath/Phonons/tree/master/2014_CZTS-S2): PbS, PbSe and PbTe
+- [2015_CZTS-Se](2015_CZTS-Se): Cu<sub>2</sub>ZnSnS<sub>4</sub> and Cu<sub>2</sub>ZnSnSe<sub>4</sub>
+
+- [2014_PbX-QHA](2014_PbX-QHA): PbS, PbSe and PbTe
 
 
 Publications
@@ -30,9 +32,9 @@ Codes
 -----
 
 - [Phonopy](http://atztogo.github.io/phonopy)
-- [ascii-phonons](https://github.com/ajjackson/ascii-phonons)
 - [VASP](https://www.vasp.at)
-
+- [ascii-phonons](https://github.com/ajjackson/ascii-phonons) - Phonopy .ascii displacements -> Blender movies
+- [Julia-Phonons](https://github.com/jarvist/Julia-Phonons) - Phonon analysis, energy-resolved modes + .XYZ phonon movies
 
 Group Guides
 ------------
