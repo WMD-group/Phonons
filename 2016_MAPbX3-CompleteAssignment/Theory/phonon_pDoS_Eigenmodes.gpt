@@ -49,32 +49,55 @@ set style increment userstyles
 
 GNUTERM = "qt"
 x = 0.0
+
+t = 33.35641
+
 ## Last datafile plotted: "partial_dos.dat"
 #p "partial_dos.dat" u 1:($2+$3+$4) w l, "" u 1:($5+$6+$7) w l, "" u 1:($8+$9+$10) w l, "" u 1:($11+$12+$13) w l, "" u 1:($14+$15+$16) w l, "" u 1:($17+$18+$19) w l
 
 set style fill transparent solid 0.3 border
 unset key
 
+set size square
+
 #p "partial_dos.dat" u 1:2 w l, "" u 1:3 w l, "" u 1:4 w l, \
 # "" u 1:5 w l, "" u 1:6 w l, "" u 1:7 w l, \
 
 
-set xlabel "Frequency (THz)"
-set ylabel "pDoS"
+#set xlabel "Frequency (THz)"
+#set ylabel "pDoS"
 #p "partial_dos.dat" u 1:($2+$3+$4) w filledcurves lt 1, \
 # "" u 1:($5+$6+$7) w filledcurves lt 4, "" u 1:($8+$9+$10) w filledcurves lt 7, \
 # "" u 1:($11+$12+$13) w filledcurves lt 10, "" u 1:($14+$15+$16) w filledcurves lt 13, \
 # "" u 1:($17+$18+$19) w filledcurves lt 16, \
 # "" u 1:($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17+$18+$19) w lines #lc rgb '#333333'
 
-set ylabel "Frequency (THz)"
-set xlabel "pDoS"
+set yrange [-30:220]
+#set xrange [0:10000] # hard coded
+set format x "" # Just tic's, no numbers (arb units)
+
+#set ylabel "Frequency (inverse cm)"
+set xlabel "Partial Density of States"
 # plot against y axis
-p "partial_dos.dat" u ($2+$3+$4):1 w filledcurves lt 1, \
- "" u ($5+$6+$7):1 w filledcurves lt 4, "" u ($8+$9+$10):1 w filledcurves lt 7, \
- "" u ($11+$12+$13):1 w filledcurves lt 10, "" u ($14+$15+$16):1 w filledcurves lt 13, \
- "" u ($17+$18+$19):1 w filledcurves lt 16, \
- "" u ($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17+$18+$19):1 w lines #lc rgb '#333333'
+p "partial_dos.dat" u ($2+$3+$4):($1*t) w filledcurves lt 1, \
+ "" u ($5+$6+$7):($1*t) w filledcurves lt 4, "" u ($8+$9+$10):($1*t) w filledcurves lt 7, \
+ "" u ($11+$12+$13):($1*t) w filledcurves lt 10, "" u ($14+$15+$16):($1*t) w filledcurves lt 13, \
+ "" u ($17+$18+$19):($1*t) w filledcurves lt 16, \
+ "" u ($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17+$18+$19):($1*t) w lines lc rgb '#333333', \
+ 0.0 lt 0 dt 2
+
+
+# High res output
+file="phonon_pDoS_Eigenmodes"
+
+set terminal pngcairo size 1024,1024 enhanced font 'Helvetica,24'
+set output file.'.png'
+replot
+
+set terminal postscript eps enhanced color font 'Helvetica,24'
+set output file.'.eps'
+replot
+
 #
 #
 #    EOF
