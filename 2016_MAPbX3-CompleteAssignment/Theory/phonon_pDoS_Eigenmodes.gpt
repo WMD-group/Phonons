@@ -1,0 +1,80 @@
+#!/usr/bin/gnuplot -persist
+#
+#    
+#    	G N U P L O T
+#    	Version 5.0 patchlevel 3    last modified 2016-02-21 
+#    
+#    	Copyright (C) 1986-1993, 1998, 2004, 2007-2016
+#    	Thomas Williams, Colin Kelley and many others
+#    
+#    	gnuplot home:     http://www.gnuplot.info
+#    	faq, bugs, etc:   type "help FAQ"
+#    	immediate help:   type "help"  (plot window: hit 'h')
+
+# Colours + styles etc.
+set style line 1 lt 1 lc rgb '#A6CEE3' # light blue
+set style line 2 lt 1 lc rgb '#63A3CC' # mid blue
+set style line 3 lt 1 lc rgb '#1F78B4' # dark blue
+
+set style line 4 lt 1 lc rgb '#B2DF8A' # light green
+set style line 5 lt 1 lc rgb '#73C05B' # mid green
+set style line 6 lt 1 lc rgb '#33A02C' # dark green
+
+set style line 7 lt 1 lc rgb '#FB9A99' # light red
+set style line 8 lt 1 lc rgb '#EF5A5B' # mid red
+set style line 9 lt 1 lc rgb '#E31A1C' # dark red
+
+set style line 10 lt 1 lc rgb '#FDBF6F' # light orange
+set style line 11 lt 1 lc rgb '#FE9F38' # mid orange
+set style line 12 lt 1 lc rgb '#FF7F00' # dark orange
+
+### Repeat by hand, can't get it to do this automagically :( ###
+
+set style line 13 lt 1 lc rgb '#B2DF8A' # light green
+set style line 14 lt 1 lc rgb '#73C05B' # mid green
+set style line 15 lt 1 lc rgb '#33A02C' # dark green
+
+set style line 16 lt 1 lc rgb '#FB9A99' # light red
+set style line 17 lt 1 lc rgb '#EF5A5B' # mid red
+set style line 18 lt 1 lc rgb '#E31A1C' # dark red
+
+set style line 19 lt 1 lc rgb '#FDBF6F' # light orange
+set style line 20 lt 1 lc rgb '#FE9F38' # mid orange
+set style line 21 lt 1 lc rgb '#FF7F00' # dark orange
+
+
+
+set style increment userstyles
+#
+
+GNUTERM = "qt"
+x = 0.0
+## Last datafile plotted: "partial_dos.dat"
+#p "partial_dos.dat" u 1:($2+$3+$4) w l, "" u 1:($5+$6+$7) w l, "" u 1:($8+$9+$10) w l, "" u 1:($11+$12+$13) w l, "" u 1:($14+$15+$16) w l, "" u 1:($17+$18+$19) w l
+
+set style fill transparent solid 0.3 border
+unset key
+
+#p "partial_dos.dat" u 1:2 w l, "" u 1:3 w l, "" u 1:4 w l, \
+# "" u 1:5 w l, "" u 1:6 w l, "" u 1:7 w l, \
+
+
+set xlabel "Frequency (THz)"
+set ylabel "pDoS"
+#p "partial_dos.dat" u 1:($2+$3+$4) w filledcurves lt 1, \
+# "" u 1:($5+$6+$7) w filledcurves lt 4, "" u 1:($8+$9+$10) w filledcurves lt 7, \
+# "" u 1:($11+$12+$13) w filledcurves lt 10, "" u 1:($14+$15+$16) w filledcurves lt 13, \
+# "" u 1:($17+$18+$19) w filledcurves lt 16, \
+# "" u 1:($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17+$18+$19) w lines #lc rgb '#333333'
+
+set ylabel "Frequency (THz)"
+set xlabel "pDoS"
+# plot against y axis
+p "partial_dos.dat" u ($2+$3+$4):1 w filledcurves lt 1, \
+ "" u ($5+$6+$7):1 w filledcurves lt 4, "" u ($8+$9+$10):1 w filledcurves lt 7, \
+ "" u ($11+$12+$13):1 w filledcurves lt 10, "" u ($14+$15+$16):1 w filledcurves lt 13, \
+ "" u ($17+$18+$19):1 w filledcurves lt 16, \
+ "" u ($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12+$13+$14+$15+$16+$17+$18+$19):1 w lines #lc rgb '#333333'
+#
+#
+#    EOF
