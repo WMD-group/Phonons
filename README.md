@@ -3,7 +3,7 @@ Phonons
 
 A collection of structures, force constants, and other phonon data obtained from first-principles calculations.
 
-- [2016_234-Kappa](http://doi.org/10.15125/BATH-00219): mass-conserving cation mutations from ZnS to GuGaS<sub>2</sub> to Cu<sub>2</sub>ZnSnS<sub>4</sub>
+- [2016_234-Kappa](http://doi.org/10.15125/BATH-00219): mass-conserving cation mutations from ZnS to CuGaS<sub>2</sub> to Cu<sub>2</sub>ZnSnS<sub>4</sub>
 
 - [2016_MAPbX3-CompleteAssignment](2016_MAPbX3-CompleteAssignment): More careful analysis and derived factors, from the data below
 
